@@ -1,30 +1,29 @@
 # Manga-Search
 
-## Installation-Dépendences
+A website for retrieving info about mangas using [DBpedia](https://www.dbpedia.org/) and SPARQL built with jQuery.
 
-Pas d'installation de dépendences ou autres pour le projet, ça été fait en pure HTML-CSS-JS .
+Example of a DBpedia page for the manga [One Piece](https://dbpedia.org/page/Naruto)
 
+## Dependency installation
 
-## Lancer le projet
-### Depuis la page principale
+No installation of dependencies needed for this project,it was done in pure HTML-CSS-JS with the help of jQuery.
 
-Il suffit d'ouvrir le fichier html `index.html` dans un navigateur tel que Chrome ou Firefox.
+## Running the project
 
-On atterit sur l'outil de recherche où on peut commencer de mettre des noms de mangas et il y aura une autocomplete de mangas présent sur DBPedia.
+### From the main page
 
-On peut aussi ne pas choisir un manga de l'autocomplete et plutôt mettre des mots clés tel que "One" ou "Brother" et rechercher et on affichera une liste de mangas liés au mot clé.
+Just open the html file `index.html` in a browser such as Chrome or Firefox.
 
-On a aussi des options avancées pour filtrer les résultats:
+We land on the search tool where we can start putting the name of a manga and there will be an autocomplete of mangas present on DBPedia.
 
-- Filtrer par *le nom de l'auteur(mangaka)*. Il faut mettre le nom complet du mangaka par example: _Eiichiro Oda_
-- Filter par date d'apparition du manga: On sélectionne un année précise et on récupère les mangas apparus avant cette date.
-- Filter par type de manga: Plusieurs options sont disponibles.
+We can also instead choose to put keywords such as "One" or "Brother" and the search we will display a list of manga related to the keyword.
 
+We also have advanced options to filter the results:
 
-A partir de la liste des mangas on peut naviguer vers la page manga ou la page de l'auteur à partir des liens clickables (leur nom).
+- Filter by _the name of the author (mangaka)_. You must put the full name of the mangaka for example: _Eiichiro Oda_
+- Filter by date of appearance of the manga: We select a precise year and we recover the mangas appeared before this date.
+- Filter by type of manga: Several options are available.
 
-Dans la page manga on peut naviguer vers la page des personnages, la page de l'auteur ou la page de mangas similaires.
+From the manga list you can navigate to the manga page or the author's page from the clickable links (their name).
 
-
-
-
+In manga page one can navigate to character page, author page or similar manga page.
